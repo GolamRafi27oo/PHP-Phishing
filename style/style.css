@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../image/back.png);
+    background-size: cover;
+  }
+  .box{
+    opacity: 0.8;
+    border-radius: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .box h1{
+    color: #fff;
+    font-size: 20px;
+    
+  }
+  .box h2{
+    color: #fff;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+  .head{
+    padding-left: 46px;
+  }
+  h3{
+    font-size: 13px;
+    font-weight: 200;
+    color: #fff;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+
+  }
+  .input-box{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .input-box input{
+    width: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    background: #e8f0fe;
+  }
+  .input-box1{
+    text-align: center;
+  }
+  .submit{
+    width: 230px;
+    margin-top: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #e50914;
+    border: 1px solid #e50914;
+    color: #fff;
+    font-weight:700;
+    border-radius: 4px;
+    opacity: none;
+  }
+  #error{
+    padding-top: 5px;
+    padding-bottom: -10px;
+  }
+  #error h1{
+    color: #ffa300;
+    font-size: 12px;
+    
+  }
+
+  @media screen and (max-width:404px) {
+    .box{
+      padding: 20px;
+      width: 300px
+    }
+    .head{
+      padding-left: 15px;
+    }
+  }
